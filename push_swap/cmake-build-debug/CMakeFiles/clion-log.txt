@@ -1,0 +1,4 @@
+/usr/bin/cmake -DCMAKE_BUILD_TYPE=Debug -DCMAKE_MAKE_PROGRAM=/usr/bin/make -DCMAKE_C_COMPILER=/usr/bin/clang -DCMAKE_CXX_COMPILER=/usr/bin/clang -G "CodeBlocks - Unix Makefiles" /home/lastinc/School21/push_swap
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/lastinc/School21/push_swap/cmake-build-debug

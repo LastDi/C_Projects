@@ -1,0 +1,16 @@
+# ninja log v5
+0	64	1644516923092863029	CMakeFiles/test.dir/utils_func.c.o	bb5b54d8496eeddf
+1	29	1644079214310011275	CMakeFiles/test.dir/sort_two_five.c.o	cf12f17c413db841
+0	121	1644075671741900029	CMakeFiles/test.dir/main.c.o	927a291a4b6bab89
+1	63	1644516911805705857	CMakeFiles/test.dir/free_func.c.o	dbda637177b91c40
+1	73	1644516911812372849	CMakeFiles/test.dir/init_stack_func.c.o	849578ae56a30bf5
+1	57	1644079777543640920	CMakeFiles/test.dir/free_funcs.c.o	5d2d5cbeeb5a2471
+2	96	1644516911835707322	CMakeFiles/test.dir/manipulation_func.c.o	a5549ee911b90381
+0	53	1644576035359433091	CMakeFiles/test.dir/push_func.c.o	b26604133f8c92c4
+2	70	1644516911812372849	CMakeFiles/test.dir/sort_rules_part_two.c.o	1bfb4b822ee3460a
+0	69	1644516911809039353	CMakeFiles/test.dir/push_swap.c.o	8e80348b6817596c
+0	65	1644575956658618790	CMakeFiles/test.dir/sort_func.c.o	c40dd1b5da686c7e
+2	81	1644516911822373338	CMakeFiles/test.dir/sort_rules_part_one.c.o	72ec9a16e8fe2ca9
+53	87	1644576035392766764	test	11fa789dcba7b699
+1	82	1644516911822373338	CMakeFiles/test.dir/validate_func.c.o	f72ae6de1cb5d493
+1	85	1644516911825706834	CMakeFiles/test.dir/small_sort_func.c.o	336386fbac5b777

@@ -1,0 +1,3 @@
+/home/lastinc/School21/push_swap/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/home/lastinc/School21/push_swap/cmake-build-debug/CMakeFiles/edit_cache.dir
+/home/lastinc/School21/push_swap/cmake-build-debug/CMakeFiles/test.dir

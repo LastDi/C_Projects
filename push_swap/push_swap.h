@@ -33,6 +33,7 @@ typedef struct s_stacks
 	int		num_of_b;
 	int		min;
 
+	int *nums;
 	t_stack	**a;
 	t_stack	**b;
 }				t_stacks;

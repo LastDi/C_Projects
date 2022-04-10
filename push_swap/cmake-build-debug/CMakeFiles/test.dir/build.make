@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/lastinc/School21/push_swap
+CMAKE_SOURCE_DIR = /home/lastinc/School21/GIT/push_swap
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/lastinc/School21/push_swap/cmake-build-debug
+CMAKE_BINARY_DIR = /home/lastinc/School21/GIT/push_swap/cmake-build-debug
 
 # Include any dependencies generated for this target.
 include CMakeFiles/test.dir/depend.make
@@ -59,146 +59,146 @@ include CMakeFiles/test.dir/flags.make
 
 CMakeFiles/test.dir/push_swap.c.o: CMakeFiles/test.dir/flags.make
 CMakeFiles/test.dir/push_swap.c.o: ../push_swap.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lastinc/School21/push_swap/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/test.dir/push_swap.c.o"
-	/usr/bin/clang $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/test.dir/push_swap.c.o   -c /home/lastinc/School21/push_swap/push_swap.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lastinc/School21/GIT/push_swap/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/test.dir/push_swap.c.o"
+	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/test.dir/push_swap.c.o   -c /home/lastinc/School21/GIT/push_swap/push_swap.c
 
 CMakeFiles/test.dir/push_swap.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/test.dir/push_swap.c.i"
-	/usr/bin/clang $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/lastinc/School21/push_swap/push_swap.c > CMakeFiles/test.dir/push_swap.c.i
+	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/lastinc/School21/GIT/push_swap/push_swap.c > CMakeFiles/test.dir/push_swap.c.i
 
 CMakeFiles/test.dir/push_swap.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/test.dir/push_swap.c.s"
-	/usr/bin/clang $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/lastinc/School21/push_swap/push_swap.c -o CMakeFiles/test.dir/push_swap.c.s
+	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/lastinc/School21/GIT/push_swap/push_swap.c -o CMakeFiles/test.dir/push_swap.c.s
 
 CMakeFiles/test.dir/small_sort_func.c.o: CMakeFiles/test.dir/flags.make
 CMakeFiles/test.dir/small_sort_func.c.o: ../small_sort_func.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lastinc/School21/push_swap/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/test.dir/small_sort_func.c.o"
-	/usr/bin/clang $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/test.dir/small_sort_func.c.o   -c /home/lastinc/School21/push_swap/small_sort_func.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lastinc/School21/GIT/push_swap/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/test.dir/small_sort_func.c.o"
+	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/test.dir/small_sort_func.c.o   -c /home/lastinc/School21/GIT/push_swap/small_sort_func.c
 
 CMakeFiles/test.dir/small_sort_func.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/test.dir/small_sort_func.c.i"
-	/usr/bin/clang $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/lastinc/School21/push_swap/small_sort_func.c > CMakeFiles/test.dir/small_sort_func.c.i
+	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/lastinc/School21/GIT/push_swap/small_sort_func.c > CMakeFiles/test.dir/small_sort_func.c.i
 
 CMakeFiles/test.dir/small_sort_func.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/test.dir/small_sort_func.c.s"
-	/usr/bin/clang $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/lastinc/School21/push_swap/small_sort_func.c -o CMakeFiles/test.dir/small_sort_func.c.s
+	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/lastinc/School21/GIT/push_swap/small_sort_func.c -o CMakeFiles/test.dir/small_sort_func.c.s
 
 CMakeFiles/test.dir/free_func.c.o: CMakeFiles/test.dir/flags.make
 CMakeFiles/test.dir/free_func.c.o: ../free_func.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lastinc/School21/push_swap/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object CMakeFiles/test.dir/free_func.c.o"
-	/usr/bin/clang $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/test.dir/free_func.c.o   -c /home/lastinc/School21/push_swap/free_func.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lastinc/School21/GIT/push_swap/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object CMakeFiles/test.dir/free_func.c.o"
+	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/test.dir/free_func.c.o   -c /home/lastinc/School21/GIT/push_swap/free_func.c
 
 CMakeFiles/test.dir/free_func.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/test.dir/free_func.c.i"
-	/usr/bin/clang $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/lastinc/School21/push_swap/free_func.c > CMakeFiles/test.dir/free_func.c.i
+	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/lastinc/School21/GIT/push_swap/free_func.c > CMakeFiles/test.dir/free_func.c.i
 
 CMakeFiles/test.dir/free_func.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/test.dir/free_func.c.s"
-	/usr/bin/clang $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/lastinc/School21/push_swap/free_func.c -o CMakeFiles/test.dir/free_func.c.s
+	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/lastinc/School21/GIT/push_swap/free_func.c -o CMakeFiles/test.dir/free_func.c.s
 
 CMakeFiles/test.dir/validate_func.c.o: CMakeFiles/test.dir/flags.make
 CMakeFiles/test.dir/validate_func.c.o: ../validate_func.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lastinc/School21/push_swap/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object CMakeFiles/test.dir/validate_func.c.o"
-	/usr/bin/clang $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/test.dir/validate_func.c.o   -c /home/lastinc/School21/push_swap/validate_func.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lastinc/School21/GIT/push_swap/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object CMakeFiles/test.dir/validate_func.c.o"
+	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/test.dir/validate_func.c.o   -c /home/lastinc/School21/GIT/push_swap/validate_func.c
 
 CMakeFiles/test.dir/validate_func.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/test.dir/validate_func.c.i"
-	/usr/bin/clang $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/lastinc/School21/push_swap/validate_func.c > CMakeFiles/test.dir/validate_func.c.i
+	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/lastinc/School21/GIT/push_swap/validate_func.c > CMakeFiles/test.dir/validate_func.c.i
 
 CMakeFiles/test.dir/validate_func.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/test.dir/validate_func.c.s"
-	/usr/bin/clang $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/lastinc/School21/push_swap/validate_func.c -o CMakeFiles/test.dir/validate_func.c.s
+	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/lastinc/School21/GIT/push_swap/validate_func.c -o CMakeFiles/test.dir/validate_func.c.s
 
 CMakeFiles/test.dir/init_stack_func.c.o: CMakeFiles/test.dir/flags.make
 CMakeFiles/test.dir/init_stack_func.c.o: ../init_stack_func.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lastinc/School21/push_swap/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building C object CMakeFiles/test.dir/init_stack_func.c.o"
-	/usr/bin/clang $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/test.dir/init_stack_func.c.o   -c /home/lastinc/School21/push_swap/init_stack_func.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lastinc/School21/GIT/push_swap/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building C object CMakeFiles/test.dir/init_stack_func.c.o"
+	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/test.dir/init_stack_func.c.o   -c /home/lastinc/School21/GIT/push_swap/init_stack_func.c
 
 CMakeFiles/test.dir/init_stack_func.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/test.dir/init_stack_func.c.i"
-	/usr/bin/clang $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/lastinc/School21/push_swap/init_stack_func.c > CMakeFiles/test.dir/init_stack_func.c.i
+	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/lastinc/School21/GIT/push_swap/init_stack_func.c > CMakeFiles/test.dir/init_stack_func.c.i
 
 CMakeFiles/test.dir/init_stack_func.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/test.dir/init_stack_func.c.s"
-	/usr/bin/clang $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/lastinc/School21/push_swap/init_stack_func.c -o CMakeFiles/test.dir/init_stack_func.c.s
+	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/lastinc/School21/GIT/push_swap/init_stack_func.c -o CMakeFiles/test.dir/init_stack_func.c.s
 
 CMakeFiles/test.dir/sort_func.c.o: CMakeFiles/test.dir/flags.make
 CMakeFiles/test.dir/sort_func.c.o: ../sort_func.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lastinc/School21/push_swap/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building C object CMakeFiles/test.dir/sort_func.c.o"
-	/usr/bin/clang $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/test.dir/sort_func.c.o   -c /home/lastinc/School21/push_swap/sort_func.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lastinc/School21/GIT/push_swap/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building C object CMakeFiles/test.dir/sort_func.c.o"
+	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/test.dir/sort_func.c.o   -c /home/lastinc/School21/GIT/push_swap/sort_func.c
 
 CMakeFiles/test.dir/sort_func.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/test.dir/sort_func.c.i"
-	/usr/bin/clang $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/lastinc/School21/push_swap/sort_func.c > CMakeFiles/test.dir/sort_func.c.i
+	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/lastinc/School21/GIT/push_swap/sort_func.c > CMakeFiles/test.dir/sort_func.c.i
 
 CMakeFiles/test.dir/sort_func.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/test.dir/sort_func.c.s"
-	/usr/bin/clang $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/lastinc/School21/push_swap/sort_func.c -o CMakeFiles/test.dir/sort_func.c.s
+	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/lastinc/School21/GIT/push_swap/sort_func.c -o CMakeFiles/test.dir/sort_func.c.s
 
 CMakeFiles/test.dir/sort_rules_part_one.c.o: CMakeFiles/test.dir/flags.make
 CMakeFiles/test.dir/sort_rules_part_one.c.o: ../sort_rules_part_one.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lastinc/School21/push_swap/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building C object CMakeFiles/test.dir/sort_rules_part_one.c.o"
-	/usr/bin/clang $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/test.dir/sort_rules_part_one.c.o   -c /home/lastinc/School21/push_swap/sort_rules_part_one.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lastinc/School21/GIT/push_swap/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building C object CMakeFiles/test.dir/sort_rules_part_one.c.o"
+	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/test.dir/sort_rules_part_one.c.o   -c /home/lastinc/School21/GIT/push_swap/sort_rules_part_one.c
 
 CMakeFiles/test.dir/sort_rules_part_one.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/test.dir/sort_rules_part_one.c.i"
-	/usr/bin/clang $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/lastinc/School21/push_swap/sort_rules_part_one.c > CMakeFiles/test.dir/sort_rules_part_one.c.i
+	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/lastinc/School21/GIT/push_swap/sort_rules_part_one.c > CMakeFiles/test.dir/sort_rules_part_one.c.i
 
 CMakeFiles/test.dir/sort_rules_part_one.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/test.dir/sort_rules_part_one.c.s"
-	/usr/bin/clang $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/lastinc/School21/push_swap/sort_rules_part_one.c -o CMakeFiles/test.dir/sort_rules_part_one.c.s
+	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/lastinc/School21/GIT/push_swap/sort_rules_part_one.c -o CMakeFiles/test.dir/sort_rules_part_one.c.s
 
 CMakeFiles/test.dir/sort_rules_part_two.c.o: CMakeFiles/test.dir/flags.make
 CMakeFiles/test.dir/sort_rules_part_two.c.o: ../sort_rules_part_two.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lastinc/School21/push_swap/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building C object CMakeFiles/test.dir/sort_rules_part_two.c.o"
-	/usr/bin/clang $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/test.dir/sort_rules_part_two.c.o   -c /home/lastinc/School21/push_swap/sort_rules_part_two.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lastinc/School21/GIT/push_swap/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building C object CMakeFiles/test.dir/sort_rules_part_two.c.o"
+	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/test.dir/sort_rules_part_two.c.o   -c /home/lastinc/School21/GIT/push_swap/sort_rules_part_two.c
 
 CMakeFiles/test.dir/sort_rules_part_two.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/test.dir/sort_rules_part_two.c.i"
-	/usr/bin/clang $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/lastinc/School21/push_swap/sort_rules_part_two.c > CMakeFiles/test.dir/sort_rules_part_two.c.i
+	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/lastinc/School21/GIT/push_swap/sort_rules_part_two.c > CMakeFiles/test.dir/sort_rules_part_two.c.i
 
 CMakeFiles/test.dir/sort_rules_part_two.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/test.dir/sort_rules_part_two.c.s"
-	/usr/bin/clang $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/lastinc/School21/push_swap/sort_rules_part_two.c -o CMakeFiles/test.dir/sort_rules_part_two.c.s
+	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/lastinc/School21/GIT/push_swap/sort_rules_part_two.c -o CMakeFiles/test.dir/sort_rules_part_two.c.s
 
 CMakeFiles/test.dir/manipulation_func.c.o: CMakeFiles/test.dir/flags.make
 CMakeFiles/test.dir/manipulation_func.c.o: ../manipulation_func.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lastinc/School21/push_swap/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building C object CMakeFiles/test.dir/manipulation_func.c.o"
-	/usr/bin/clang $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/test.dir/manipulation_func.c.o   -c /home/lastinc/School21/push_swap/manipulation_func.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lastinc/School21/GIT/push_swap/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building C object CMakeFiles/test.dir/manipulation_func.c.o"
+	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/test.dir/manipulation_func.c.o   -c /home/lastinc/School21/GIT/push_swap/manipulation_func.c
 
 CMakeFiles/test.dir/manipulation_func.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/test.dir/manipulation_func.c.i"
-	/usr/bin/clang $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/lastinc/School21/push_swap/manipulation_func.c > CMakeFiles/test.dir/manipulation_func.c.i
+	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/lastinc/School21/GIT/push_swap/manipulation_func.c > CMakeFiles/test.dir/manipulation_func.c.i
 
 CMakeFiles/test.dir/manipulation_func.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/test.dir/manipulation_func.c.s"
-	/usr/bin/clang $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/lastinc/School21/push_swap/manipulation_func.c -o CMakeFiles/test.dir/manipulation_func.c.s
+	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/lastinc/School21/GIT/push_swap/manipulation_func.c -o CMakeFiles/test.dir/manipulation_func.c.s
 
 CMakeFiles/test.dir/utils_func.c.o: CMakeFiles/test.dir/flags.make
 CMakeFiles/test.dir/utils_func.c.o: ../utils_func.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lastinc/School21/push_swap/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building C object CMakeFiles/test.dir/utils_func.c.o"
-	/usr/bin/clang $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/test.dir/utils_func.c.o   -c /home/lastinc/School21/push_swap/utils_func.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lastinc/School21/GIT/push_swap/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building C object CMakeFiles/test.dir/utils_func.c.o"
+	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/test.dir/utils_func.c.o   -c /home/lastinc/School21/GIT/push_swap/utils_func.c
 
 CMakeFiles/test.dir/utils_func.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/test.dir/utils_func.c.i"
-	/usr/bin/clang $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/lastinc/School21/push_swap/utils_func.c > CMakeFiles/test.dir/utils_func.c.i
+	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/lastinc/School21/GIT/push_swap/utils_func.c > CMakeFiles/test.dir/utils_func.c.i
 
 CMakeFiles/test.dir/utils_func.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/test.dir/utils_func.c.s"
-	/usr/bin/clang $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/lastinc/School21/push_swap/utils_func.c -o CMakeFiles/test.dir/utils_func.c.s
+	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/lastinc/School21/GIT/push_swap/utils_func.c -o CMakeFiles/test.dir/utils_func.c.s
 
 CMakeFiles/test.dir/push_func.c.o: CMakeFiles/test.dir/flags.make
 CMakeFiles/test.dir/push_func.c.o: ../push_func.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lastinc/School21/push_swap/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building C object CMakeFiles/test.dir/push_func.c.o"
-	/usr/bin/clang $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/test.dir/push_func.c.o   -c /home/lastinc/School21/push_swap/push_func.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lastinc/School21/GIT/push_swap/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building C object CMakeFiles/test.dir/push_func.c.o"
+	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/test.dir/push_func.c.o   -c /home/lastinc/School21/GIT/push_swap/push_func.c
 
 CMakeFiles/test.dir/push_func.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/test.dir/push_func.c.i"
-	/usr/bin/clang $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/lastinc/School21/push_swap/push_func.c > CMakeFiles/test.dir/push_func.c.i
+	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/lastinc/School21/GIT/push_swap/push_func.c > CMakeFiles/test.dir/push_func.c.i
 
 CMakeFiles/test.dir/push_func.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/test.dir/push_func.c.s"
-	/usr/bin/clang $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/lastinc/School21/push_swap/push_func.c -o CMakeFiles/test.dir/push_func.c.s
+	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/lastinc/School21/GIT/push_swap/push_func.c -o CMakeFiles/test.dir/push_func.c.s
 
 # Object files for target test
 test_OBJECTS = \
@@ -230,7 +230,7 @@ test: CMakeFiles/test.dir/utils_func.c.o
 test: CMakeFiles/test.dir/push_func.c.o
 test: CMakeFiles/test.dir/build.make
 test: CMakeFiles/test.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/lastinc/School21/push_swap/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Linking C executable test"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/lastinc/School21/GIT/push_swap/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Linking C executable test"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/test.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -243,6 +243,6 @@ CMakeFiles/test.dir/clean:
 .PHONY : CMakeFiles/test.dir/clean
 
 CMakeFiles/test.dir/depend:
-	cd /home/lastinc/School21/push_swap/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/lastinc/School21/push_swap /home/lastinc/School21/push_swap /home/lastinc/School21/push_swap/cmake-build-debug /home/lastinc/School21/push_swap/cmake-build-debug /home/lastinc/School21/push_swap/cmake-build-debug/CMakeFiles/test.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/lastinc/School21/GIT/push_swap/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/lastinc/School21/GIT/push_swap /home/lastinc/School21/GIT/push_swap /home/lastinc/School21/GIT/push_swap/cmake-build-debug /home/lastinc/School21/GIT/push_swap/cmake-build-debug /home/lastinc/School21/GIT/push_swap/cmake-build-debug/CMakeFiles/test.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/test.dir/depend
 

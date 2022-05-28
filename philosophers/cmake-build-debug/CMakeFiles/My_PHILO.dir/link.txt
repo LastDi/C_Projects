@@ -1,0 +1,1 @@
+/usr/bin/gcc -g   CMakeFiles/My_PHILO.dir/philo.c.o CMakeFiles/My_PHILO.dir/print.c.o CMakeFiles/My_PHILO.dir/utils.c.o CMakeFiles/My_PHILO.dir/free.c.o CMakeFiles/My_PHILO.dir/actions.c.o CMakeFiles/My_PHILO.dir/init.c.o  -o My_PHILO 
